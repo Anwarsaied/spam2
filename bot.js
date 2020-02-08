@@ -41,7 +41,7 @@ client.channels.get("675302478870478874").send(`${ReBeL[Math.floor(Math.random()
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['spam','on'];
+    var setGame = ['spam','2'];
     var i = -1;
     var j = 0;
     setInterval(function (){
