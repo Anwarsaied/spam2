@@ -33,7 +33,7 @@ client.channels.get("675480873671327767").send(`${ReBeL[Math.floor(Math.random()
 client.on('ready', async () => {
       let ReBeL = ["#rep <@531662951380156417>"]
   setInterval(() => {
-client.channels.get("675302478870478874").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+client.channels.get("675480873671327767").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
 },1440000);
 });
 
