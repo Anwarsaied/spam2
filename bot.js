@@ -64,19 +64,4 @@ client.on('ready', function(){
  console.log(` L U X Y`);
 });
 
-
-
-client.on("message", msg => {
-  if (msg.content === "p") {  
-    msg.reply("#profile"); 
-  }
-});
-
-client.on('message', msg=> {
-  if (msg.content === "#profile") {
-    msg.react('✅');
-  }
-});
-
-
 client.login(process.env.BOT_TOKEN);
